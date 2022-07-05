@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Dosis&family=Lora&family=Nunito:wght@300;400;600;700&family=Poppins&family=Yesteryear&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Nunito";
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 85px;
+	background: linear-gradient(90deg, #802222 1.18%, #a626d3 100%);
+	color: white;
+	padding: 20px;
+}
+
+.header-image {
+	height: 100%;
+	font-size: 4rem;
+	margin-right: 6px;
+}
+
+.header-title {
+	font-size: 1.25rem;
+	margin-right: auto;
+}
+
+.header-text {
+	font-size: 0.75rem;
+	font-weight: 500;
+}
