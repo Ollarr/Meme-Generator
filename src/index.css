@@ -11,6 +11,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+main {
+	padding: 36px;
+}
+
 .header {
 	display: flex;
 	align-items: center;
@@ -34,4 +38,27 @@ body {
 .header-text {
 	font-size: 0.75rem;
 	font-weight: 500;
+}
+
+.form {
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+	gap: 17px;
+}
+
+.form-input {
+	font-family: "Karla", sans-serif;
+	border-radius: 5px;
+	border: 1px solid #d5d4d8;
+	text-indent: 5px;
+}
+
+.form-button {
+	grid-column: 1 / -1;
+	font-family: "Karla", sans-serif;
+	background: linear-gradient(90deg, #802222 1.18%, #a626d3 100%);
+	border-radius: 5px;
+	color: white;
+	border: none;
+	cursor: pointer;
 }
